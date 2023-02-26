@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const ItemListContainer = () => {
+const ItemListContainer = ({ nombre }) => {
   return (
-    <div>ItemListContainer</div>
-  )
-}
+    <div>
+      <h1>Bienvenido la plataforma de Diarco</h1>
+      <h2>{nombre}</h2>
+    </div>
+  );
+};
 
-export default ItemListContainer
+export default ItemListContainer;

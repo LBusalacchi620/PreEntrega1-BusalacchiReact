@@ -1,17 +1,16 @@
 import Footer from "./components/Footer/Footer";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import Navbar from "./components/NavBar/NavBar";
-
+import ProductCard from "./components/ProductCard/ProductCard";
 
 function App() {
   return (
     <div>
-     <Navbar>
+      <Navbar />
+      {/* <ProductCard title={"Producto uno"} price={200} />
+      <ProductCard title={"Producto dos"} price={500} /> */}
 
-     </Navbar>
-      <Footer>
-        <ItemListContainer/>
-      </Footer>
+      <Footer />
     </div>
   );
 }
