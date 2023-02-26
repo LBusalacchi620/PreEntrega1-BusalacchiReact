@@ -1,10 +1,16 @@
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/NavBar/NavBar";
 
 
 function App() {
   return (
     <div>
-      <h1>Clase 2 </h1>
-      
+     <Navbar>
+
+     </Navbar>
+      <Footer>
+        
+      </Footer>
     </div>
   );
 }
