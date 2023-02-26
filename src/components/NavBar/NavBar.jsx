@@ -1,5 +1,7 @@
 import styles from "./NavBar.module.css";
 import CardWidget from "../CardWidget/CardWidget";
+import Stack from "@mui/material/Stack";
+import Button from "@mui/material/Button";
 
 const Navbar = ({ children }) => {
   return (
@@ -12,12 +14,24 @@ const Navbar = ({ children }) => {
         />
 
         <ul className={styles.containerList}>
-          <li>Todas</li>
-          <li>Bebinas</li>
-          <li>Lacteos</li>
-          <li>Alimentos</li>
-          <li>Congelados</li>
-          <li>Productos de limpieza</li>
+          <li>
+            <Button variant="Text">Todas</Button>
+          </li>
+          <li>
+            <Button variant="Text">Bebidas</Button>
+          </li>
+          <li>
+            <Button variant="Text">Lacteos</Button>
+          </li>
+          <li>
+            <Button variant="Text">Alimentos</Button>
+          </li>
+          <li>
+            <Button variant="Text">Congelados</Button>
+          </li>
+          <li>
+            <Button variant="Text">Limpieza</Button>
+          </li>
         </ul>
         <CardWidget />
       </div>
